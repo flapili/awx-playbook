@@ -1,0 +1,7 @@
+- name: Hello World Sample
+  hosts: all
+  tasks:
+    - name: Update all packages
+      apt:
+        upgrade: dist
+        update_cache: yes
