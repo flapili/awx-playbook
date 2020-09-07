@@ -3,6 +3,6 @@
   tasks:
     - name: Install NodeJs
       apt:
-      name:
-        - node
-      state: present
+        name:
+          - node
+        state: present
